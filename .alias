@@ -1,0 +1,26 @@
+alias home='cd ~'
+
+# Git repos
+alias chord='cd ~/src/chord-cds'
+alias filterxml='cd ~/src/filter-xml-native'
+alias schemas='cd ~/src/schemas'
+alias jreap='cd ~/src/transformer-jreap'
+alias daffodil='cd ~/src/transformer-daffodil'
+alias log='cd ~/src/log4cxx-native'
+alias src='cd ~/src'
+alias pitcher='cd ~/src/pitcher-catcher-native'
+alias catcher='cd ~/src/pitcher-catcher-native'
+alias cds='cd ~/src/chord-cds'
+alias xmlcommon='cd ~/src/filter-xml-native/src/xmlCommon/cpp'
+alias libxml='cd ~/src/filter-xml-native/src/libxml2Filter/cpp'
+alias xerces='cd ~/src/filter-xml-native/src/xercescFilter/cpp'
+
+# Git commands
+alias gitl='git log --graph --decorate --all --color'
+alias gitd='git diff --color'
+alias gits='git status'
+
+# Gradle wrapper
+alias gradleb='./gradlew build'
+alias gradlec='./gradlew clean build'
+alias gradled='./gradlew clean build --debug'
