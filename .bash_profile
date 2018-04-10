@@ -7,9 +7,6 @@ fi
 
 # User specific environment and startup programs
 
-# Configure devtoolset-4 to run upon each login
-source /opt/rh/devtoolset-4/enable
-
 # get current branch in git repo
 function parse_git_branch() {
 	git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
