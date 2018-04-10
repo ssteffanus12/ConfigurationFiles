@@ -5,6 +5,8 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
+LS_COLORS=$LS_COLORS:'di=0;35:' ; export LS_COLORS
+
 # Source alias file
 source ~/.alias
 
